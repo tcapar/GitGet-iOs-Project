@@ -21,6 +21,7 @@
 		F3D2A29A19AFB86E00C5A958 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D2A27C19AFB86E00C5A958 /* UIKit.framework */; };
 		F3D2A2A219AFB86E00C5A958 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3D2A2A019AFB86E00C5A958 /* InfoPlist.strings */; };
 		F3D2A2A419AFB86E00C5A958 /* GitGetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D2A2A319AFB86E00C5A958 /* GitGetTests.m */; };
+		F3D2A2AF19AFBCED00C5A958 /* TCtestt.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D2A2AE19AFBCED00C5A958 /* TCtestt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F3D2A29F19AFB86E00C5A958 /* GitGetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitGetTests-Info.plist"; sourceTree = "<group>"; };
 		F3D2A2A119AFB86E00C5A958 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3D2A2A319AFB86E00C5A958 /* GitGetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitGetTests.m; sourceTree = "<group>"; };
+		F3D2A2AD19AFBCED00C5A958 /* TCtestt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCtestt.h; sourceTree = "<group>"; };
+		F3D2A2AE19AFBCED00C5A958 /* TCtestt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCtestt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		F3D2A26C19AFB86E00C5A958 = {
 			isa = PBXGroup;
 			children = (
+				F3D2A2AD19AFBCED00C5A958 /* TCtestt.h */,
+				F3D2A2AE19AFBCED00C5A958 /* TCtestt.m */,
 				F3D2A27E19AFB86E00C5A958 /* GitGet */,
 				F3D2A29D19AFB86E00C5A958 /* GitGetTests */,
 				F3D2A27719AFB86E00C5A958 /* Frameworks */,
@@ -253,6 +258,7 @@
 				F3D2A28F19AFB86E00C5A958 /* TCViewController.m in Sources */,
 				F3D2A28519AFB86E00C5A958 /* main.m in Sources */,
 				F3D2A28919AFB86E00C5A958 /* TCAppDelegate.m in Sources */,
+				F3D2A2AF19AFBCED00C5A958 /* TCtestt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
